@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, intial-scale=1.0" />
+        <title>Let's play Rock Paper Scissors</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/> 
+        <script src="https://kit.fontawesome.com/4c536a6bd5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="title">Let's play Rock Paper Scissors</h1>
+        </header>
+        <main class="main">
+            <div class="scoreboard">
+                <h2 class="score-heading" id="score-heading">Score</h2>
+                <div class="score">
+                    <div class="player1-score">
+                        <p id="player1-score">Player 1: 0</p>
+                        <i class="fas fa-hand-paper" id="player1-sign"></i>
+                    </div>
+                </div>
+                <div class="player2-section">
+                    <p id="player2-score">Player 2: 0 </p>
+                    <i class="fas fa-hand-rock" id="player2-sign"></i>
+                </div>
+            </div>
+            <div>
+                <div class="buttons">
+                    <button class="button" id = "rock-button">Rock</button>
+                    <button class="button" id = "scissors-button">Scissors</button>
+                    <button class="button" id = "paper-button">paper</button>
+                </div>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
