@@ -19,3 +19,19 @@ function printScore(player1Score) {
 function printScore(player2Score) {
     console.log(player2Score.score)
 }
+
+function gamePlay(game) {
+    if (isGameOver()) {
+        alert("Game Over.")
+        returns;
+    }
+
+    let buttonId;
+    if (game.target.tagName.toLowerCase() == "i") {
+        buttonId = e.target.parentNode.id;
+    } else {
+        buttonId = e.target.id;
+    }
+    }
+}
+
